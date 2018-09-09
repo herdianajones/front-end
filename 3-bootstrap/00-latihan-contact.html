@@ -7,8 +7,9 @@
     <title>Latihan</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        body {
+       body {
             padding: 30px;
+            padding-bottom: 0;
             background-color:burlywood;
         }
 
@@ -20,6 +21,7 @@
         footer {
             margin-top: 50px;
             padding-top: 10px;
+            padding-bottom: 10px;
             border-top: 1px solid #000;
         }
     </style>
@@ -49,15 +51,14 @@
             <div class="col-md-6">
                 <h1>Contact Us</h1>
                 <form method="get" action="">
-                    <p>
-                        <div class="form-group">
-                            <label for="my-input">Subjek Pertanyaan</label>
-                            <select id="my-input" class="form-control">
-                                <option>HTML</option>
-                                <option>CSS</option>
-                                <option>Javascript</option>
-                            </select>
-                        </div>    
+                    <div class="form-group">
+                        <label for="my-input">Subjek Pertanyaan</label>
+                        <select id="my-input" class="form-control">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>Javascript</option>
+                        </select>
+                    </div>    
                     <p>
                         <input id="name" class="form-control" type="text" placeholder="Nama">
                     </p>
@@ -72,7 +73,7 @@
                     
                 </form>
             </div>
-        
+        </div>
     </main>
     <footer class="text-center">
         Herdiana &copy; copyright 2018.
